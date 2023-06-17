@@ -229,6 +229,11 @@ h4{
 #desolation h2{
     margin: 15px;
 }
+#desolation .paragraph_1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 15px;
+    }
 #desolation_id{
     grid-column: 1/2;
     grid-row: 2/3;
