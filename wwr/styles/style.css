@@ -25,6 +25,9 @@ nav, a{
 .button-box{
     text-align: center;
     }
+.gcbutton-box{
+    text-align: center;
+    }
 main section{
     text-align: center;
     }
@@ -78,6 +81,20 @@ nav a:hover{
     }
 .book2:hover{
     background-color: #E55812;
+    color: white;
+    }
+.gcbook2{
+    background-color: #E55812;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: "Kanit", Helvetica, sans-serif;
+    }
+.gcbook2:hover{
+    background-color: black;
     color: white;
     }
 .book:hover, .join:hover{
@@ -168,6 +185,13 @@ footer a:hover{
     margin-top: 10px;
     font-family: "Kanit", Helvetica, sans-serif;
 }
+.gc-title{
+    color: white;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Kanit", Helvetica, sans-serif;
+}
 .paragraph_1, .paragraph_2, .paragraph_3{
     margin: 35px;
     color: black;
@@ -219,6 +243,25 @@ h4{
     margin-top: 100px;   
     }
 #river-wide2{
+    width: 100%;
+    height: 600px;
+    }
+#gc{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    }
+#gc-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    }
+#gc-msg{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 100px;   
+    }
+#gc-image{
     width: 100%;
     height: 600px;
     }
