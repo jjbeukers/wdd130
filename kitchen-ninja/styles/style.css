@@ -219,13 +219,17 @@
     .fruit-prep{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr .1fr;
         background-color: #022B3B;
+        margin-bottom: 20px;
         }
     .fruit-msg{
         grid-column: 1/4;
+        grid-row: 1/2;
     }
     .fruit-msg h2{
         grid-column: 1/4;
+        grid-row: 1/2;
         font-size: 2em;
         color: #F7F7FF;
         margin: auto;
@@ -235,6 +239,7 @@
         }
     .fruit-msg p{
         grid-column: 1/4;
+        grid-row: 1/2;
         color: #F7F7FF;
         font-size: 1em;
         padding: 5px;
@@ -243,16 +248,26 @@
         margin-left: 25px;
         margin-right: 25px;
         }
-    .fruit-prep apples{
+    .apples{
         grid-column: 1/2;
         grid-row: 2/3;
+        width: 400px;
+        height: 500px;
+        padding: 15px;
         }
-    .fruit-prep cuties{
+    .cuties{
         grid-column: 2/3;
         grid-row: 2/3;
+        width: 400px;
+        height: 300px;
+        padding: 15px;
+        margin-bottom: 100px;
     }
-    .fruit-prep kiwi{
+    .kiwi{
         grid-column: 3/4;
         grid-row: 2/3;
+        width: 400px;
+        height: 500px;
+        padding: 15px;
     }
  
