@@ -298,7 +298,7 @@
     }
     .veggie-prep{
         display: grid;
-        grid-template-columns: 700px 1fr;
+        grid-template-columns: 600px 1fr;
         grid-template-rows: 100px 350px 350px 350px;
         background-color: #022B3B;
         margin-bottom: 20px;
